@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 18px;
+    color: #F08000;
+    line-height: 1.6;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#navbar-items a{
+    color: #000000;
+}
+
+.custom-toggler.navbar-toggler {
+    border: 1px solid #F08000;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240, 124, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.showcase {
+    background-image: url('../img/pexels-0.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.showcase--title {
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.showcase--p {
+    font-size: 20px;
+}
+
+.showcase--button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #F08000;
+    border: 1px solid #F08000;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.showcase--button-hover.button:hover {
+    background: #F08000;
+    color: #ffffff;
+}
+
+.section--padding {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.sub--title {
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #F08000;
+}
+
+.sub--title-services {
+    padding-bottom: 60px;
+}
+
+.sub--title-white {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.about {
+    background: #EEEEEE;
+}
+
+.testimonial {
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 0 3px 0;
+    color: #000000;
+}
+
+.testimonial--autor {
+    font-size: 18px;
+    text-align: right;
+    color: #666666;    
+}
+
+.services--text {
+    padding: 60px 0 20px 0;
+}
+
+.services--text-title {
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.services--img {
+    display: inline-flex;
+    max-width: 720px;
+    max-height: 480px;
+    width: auto;
+    height: auto;
+    padding: 20px 0 20px 0;
+}
+
+.services--img-eclipse {
+    border-radius: 100%;
+}
+
+.services--img-roundrect {
+    border-radius: 10%;
+}
+
+.orange {
+    color: #441A00;
+}
+.background {
+    background: #333333;
+}
+
+.background-light {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.chat--message-user {
+    font-weight: bold;
+    color: #333333;
+}
+.chat--message {
+    font-weight: normal;
+    color: #F08000;
+}
+.contact {
+    background: url(../img/pexels-16.jpeg);
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-size: 18px;
+    padding: 30px;
+    color: #F08000;
+    background: #333333;
+}

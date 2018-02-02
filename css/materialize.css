@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-size: 18px;
+    color: #F08000;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+nav div a{
+    color: #F08000 !important;
+}
+
+#showcase {
+    background-image: url('../img/pexels-0.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #F08000;
+    border: 1px solid #F08000;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover{
+    background: #F08000;
+    color: #ffffff;
+}
